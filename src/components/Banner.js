@@ -40,7 +40,7 @@ const Banner = () => {
             <div className="banner-one__content">
               <div className="mc-form__response"></div>
               <h3>
-                Proyecto Unidos <br /> te ayuda con <br /> tu proyecto
+                Proyecto Unidos <br /> apoyando  <br /> cuasas sociales
               </h3>
               <p>
                 Nulla facilisi. Proin felis neque, suscipit egestas erat a{" "}
