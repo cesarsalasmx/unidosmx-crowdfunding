@@ -24,8 +24,8 @@ const Team = () => {
       <div className="container">
         <BlockTitle
           textAlign="center"
-          paraText="Expert People"
-          titleText={`Meet Our Professional \n Team Members`}
+          paraText="Nuestro equipo"
+          titleText={`Conoce los miembros \nde nuestro equipo`}
         />
         <div className="row">
           <div className="col-lg-3 col-md-6 col-sm-12">

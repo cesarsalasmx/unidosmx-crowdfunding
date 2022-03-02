@@ -11,40 +11,33 @@ const FAQ = (props) => {
       <Container>
         <BlockTitle
           textAlign="center"
-          paraText="Frequently Asked Questions"
-          titleText={`Want to Ask Something \n From Appton?`}
+          paraText="Preguntas frecuentes"
+          titleText={`Preguntanos algo sobre Unidos MX`}
         />
         <div className="accrodion-grp faq-accrodion">
           <AccordionItem
-            title="Pre and post launch mobile app marketing pitfalls to avoid"
+            title="¿Qué es Proyecto Unidos MX?"
             content="There are many variations of passages of available but
                     majority have alteration in some by inject humour or random
                     words. Lorem ipsum dolor sit amet."
             status={false}
           />
           <AccordionItem
-            title="Pre and post launch mobile app marketing pitfalls to avoid"
+            title="¿Qué causas sociales se apoyan?"
             content="There are many variations of passages of available but
                     majority have alteration in some by inject humour or random
                     words. Lorem ipsum dolor sit amet."
             status={true}
           />
           <AccordionItem
-            title="Pre and post launch mobile app marketing pitfalls to avoid"
+            title="¿Cómo realizo una donación?"
             content="There are many variations of passages of available but
                     majority have alteration in some by inject humour or random
                     words. Lorem ipsum dolor sit amet."
             status={false}
           />
           <AccordionItem
-            title="Pre and post launch mobile app marketing pitfalls to avoid"
-            content="There are many variations of passages of available but
-                    majority have alteration in some by inject humour or random
-                    words. Lorem ipsum dolor sit amet."
-            status={false}
-          />
-          <AccordionItem
-            title="Pre and post launch mobile app marketing pitfalls to avoid"
+            title="¿Cómo publico un proyecto?"
             content="There are many variations of passages of available but
                     majority have alteration in some by inject humour or random
                     words. Lorem ipsum dolor sit amet."

@@ -1,30 +1,11 @@
 import React from "react";
 
-import FooterLogo from "../assets/images/logo-1-1.png";
+import FooterLogo from "../assets/images/unidos-mx-logo-pruple.png";
 
 const Footer = () => {
   return (
     <div>
-      <section className="mailchimp-one">
-        <div className="container wow fadeInUp">
-          <div className="inner-container">
-            <div className="mailchimp-one__icon">
-              <i className="apton-icon-mail"></i>
-            </div>
-            <form action="#" className="mailchimp-one__form">
-              <input
-                type="text"
-                placeholder="Enter your email address"
-                name="email"
-              />
-              <button className="thm-btn mailchimp-one__btn" type="submit">
-                <span>Register Now</span>
-              </button>
-            </form>
-          </div>
-        </div>
-      </section>
-
+      
       <footer className="site-footer">
         <div className="site-footer__upper">
           <div className="container">
@@ -45,56 +26,37 @@ const Footer = () => {
               <div className="col-lg-5">
                 <div className="footer-widget__links-wrap">
                   <div className="footer-widget">
-                    <h3 className="footer-widget__title">Company</h3>
+                    <h3 className="footer-widget__title">Proyecto Unidos</h3>
                     <ul className="list-unstyled footer-widget__links-list">
                       <li>
-                        <a href="#none">About</a>
+                        <a href="#none">Sobre nosotros</a>
                       </li>
                       <li>
-                        <a href="#none">Our Team</a>
+                        <a href="#none">Nuestro equipo</a>
                       </li>
                       <li>
-                        <a href="#none">Contact</a>
-                      </li>
-                      <li>
-                        <a href="#none">Services</a>
+                        <a href="#none">Contacto</a>
                       </li>
                     </ul>
                   </div>
                   <div className="footer-widget">
-                    <h3 className="footer-widget__title">Explore</h3>
+                    <h3 className="footer-widget__title">Causas Sociales</h3>
                     <ul className="list-unstyled footer-widget__links-list">
                       <li>
-                        <a href="#none">News</a>
+                        <a href="#none">Medio ambiente</a>
                       </li>
                       <li>
-                        <a href="#none">Features</a>
+                        <a href="#none">Grupos vulnerables</a>
                       </li>
                       <li>
-                        <a href="#none">Download</a>
+                        <a href="#none">Recuperación de espacios</a>
                       </li>
                       <li>
-                        <a href="#none">Free Trial</a>
+                        <a href="#none">Futuras generaciones</a>
                       </li>
                     </ul>
                   </div>
-                  <div className="footer-widget">
-                    <h3 className="footer-widget__title">Links</h3>
-                    <ul className="list-unstyled footer-widget__links-list">
-                      <li>
-                        <a href="#none">Help</a>
-                      </li>
-                      <li>
-                        <a href="#none">Privacy Policy</a>
-                      </li>
-                      <li>
-                        <a href="#none">Terms of Use</a>
-                      </li>
-                      <li>
-                        <a href="#none">Services</a>
-                      </li>
-                    </ul>
-                  </div>
+                  
                 </div>
               </div>
               <div className="col-lg-3 d-flex align-items-center justify-content-xl-end justify-content-lg-end justify-content-md-center justify-content-sm-center">
@@ -120,7 +82,7 @@ const Footer = () => {
         </div>
         <div className="site-footer__bottom">
           <div className="container text-center">
-            <p>© copyright 2020 by Layerdrops.com</p>
+            <p>© UnidosMX. 2022</p>
           </div>
         </div>
       </footer>

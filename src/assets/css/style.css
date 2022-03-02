@@ -1222,7 +1222,7 @@ button {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: #e4e4ee;
+  background-color:#4550f8;
   font-size: 16px;
   color: #fff;
   position: relative;
@@ -4384,6 +4384,7 @@ button {
 --------------------------------------------------------------*/
 
 .faq-one {
+  padding-top: 120px;
   padding-bottom: 120px;
   position: relative;
   background-image: url(../images/shapes/faq-dot-1-1.png);
@@ -4595,4 +4596,13 @@ button {
   margin-bottom: 50px;
   font-weight: 600;
   font-size: 46px;
+}
+.proyectoIcon{
+  width: 100px;
+  margin: 20px;
+}
+.social-media-button{
+  color: #f6f6fe;
+  padding: 20px;
+  height: 100px;
 }

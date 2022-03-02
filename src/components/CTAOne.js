@@ -19,8 +19,8 @@ const CTAOne = () => {
             <div className="cta-one__content">
               <BlockTitle
                 textAlign="left"
-                paraText="Best Application"
-                titleText={`Powerful Application for \n Your Projects`}
+                paraText="Publica tu proyecto"
+                titleText={`Maneja las donaciones\ny mira como crece\ntu proyecto`}
               />
               <div className="cta-one__text">
                 <p>
@@ -43,7 +43,7 @@ const CTAOne = () => {
                 </li>
               </ul>
               <a href="#none" className="thm-btn cta-one__btn">
-                <span>Discover More</span>
+                <span>Publicar ahora</span>
               </a>
             </div>
           </div>

@@ -7,8 +7,8 @@ const Services = () => {
       <div className="container">
         <BlockTitle
           textAlign="center"
-          paraText="Feature List"
-          titleText={`Appton Providing You \n Best Features`}
+          paraText="Donación online"
+          titleText={`Mira y apoya nuestras\ndiferentes causas sociales`}
         />
         <div className="row">
           <div className="col-lg-3 col-md-6">
@@ -18,7 +18,7 @@ const Services = () => {
                 <div className="service-one__icon">
                   <i className="apton-icon-computer-graphic"></i>
                 </div>
-                <h3>Easy to Edit</h3>
+                <h3>Educación</h3>
                 <p>Lorem ipsum is are many variations of pass majy.</p>
               </div>
             </div>
@@ -30,7 +30,7 @@ const Services = () => {
                 <div className="service-one__icon">
                   <i className="apton-icon-development"></i>
                 </div>
-                <h3>Fully Secure</h3>
+                <h3>Tecnología</h3>
                 <p>Lorem ipsum is are many variations of pass majy.</p>
               </div>
             </div>
@@ -42,7 +42,7 @@ const Services = () => {
                 <div className="service-one__icon">
                   <i className="apton-icon-development1"></i>
                 </div>
-                <h3>Manage User</h3>
+                <h3>Grupos vulnerables</h3>
                 <p>Lorem ipsum is are many variations of pass majy.</p>
               </div>
             </div>
@@ -54,7 +54,7 @@ const Services = () => {
                 <div className="service-one__icon">
                   <i className="apton-icon-responsive"></i>
                 </div>
-                <h3>Free Trial</h3>
+                <h3>Medio ambiente</h3>
                 <p>Lorem ipsum is are many variations of pass majy.</p>
               </div>
             </div>

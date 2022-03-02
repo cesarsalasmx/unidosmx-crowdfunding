@@ -11,21 +11,27 @@ const CTAThree = () => {
       <img src={Cta3Shape2} className="cta-three__bg-2" alt="awesome post" />
       <Container className="text-center">
         <h3>
-          Download our App Today & <br /> Experience Endless Possibilities
+          Síguenos en nuestras redes sociales<br />y mira lo que estamos haciendo
         </h3>
-        <p>and get started with a free 1 month trial for your business </p>
-        <div className="cta-three__btn-wrap">
-          <a href="#none" className="cta-three__btn">
-            <i className="fa fa-play"></i>
-            <span>Get in</span>
-            <b>Google Play</b>
-          </a>
-          <a href="#none" className="cta-three__btn">
-            <i className="fab fa-apple"></i>
-            <span>Get in</span>
-            <b>Apple Store</b>
-          </a>
-        </div>
+        
+        <div className="cta-three__btn-wrap align-items-center justify-content-md-center justify-content-sm-center">
+                <div className="footer-widget">
+                  <div className="footer-widget__social">
+                    <a href="#none">
+                      <i className="fab fa-facebook-square"></i>
+                    </a>
+                    <a href="#none">
+                      <i className="fab fa-twitter"></i>
+                    </a>
+                    <a href="#none">
+                      <i className="fab fa-instagram"></i>
+                    </a>
+                    <a href="#none">
+                      <i className="fab fa-pinterest-p"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
       </Container>
     </section>
   );

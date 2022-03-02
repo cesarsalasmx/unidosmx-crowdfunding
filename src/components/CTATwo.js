@@ -1,6 +1,8 @@
 import React from "react";
 import BlockTitle from "./BlockTitle";
 
+import proyecto1 from "../assets/images/icons/limpieza-de-playas.png";
+import proyecto2 from "../assets/images/icons/reforestacion.png";
 import CTAImage1 from "../assets/images/resources/cta-2-moc-1.png";
 import CTAImage2 from "../assets/images/resources/cta-2-moc-2.png";
 import CTAImage3 from "../assets/images/resources/cta-2-moc-3.png";
@@ -14,13 +16,18 @@ const CTATwo = () => {
             <div className="cta-two__content">
               <BlockTitle
                 textAlign="left"
-                paraText="Feature List"
-                titleText={`Appton Providing You \n Best Features`}
+                paraText="Mira nuestros resultados"
+                titleText={`Estos son los resultados\nde los proyectos que \nhas apoyado`}
               />
               <div className="cta-two__icon-wrap">
                 <div className="cta-two__icon-single">
                   <div className="cta-two__icon">
-                    <i className="apton-icon-app-development"></i>
+                  <img
+                src={proyecto1}
+                className="proyectoIcon"
+                data-wow-duration="1500ms"
+                alt="awesome post"
+              />
                   </div>
                   <h3>
                     Responsive <br /> Design
@@ -28,7 +35,12 @@ const CTATwo = () => {
                 </div>
                 <div className="cta-two__icon-single">
                   <div className="cta-two__icon">
-                    <i className="apton-icon-computer-graphic1"></i>
+                  <img
+                src={proyecto2}
+                className="proyectoIcon"
+                data-wow-duration="1500ms"
+                alt="awesome post"
+              />
                   </div>
                   <h3>
                     Online <br /> Marketing
@@ -43,7 +55,7 @@ const CTATwo = () => {
                 </p>
               </div>
               <a href="#none" className="thm-btn cta-two__btn">
-                <span>Discover More</span>
+                <span>Descubrir más</span>
               </a>
             </div>
           </div>

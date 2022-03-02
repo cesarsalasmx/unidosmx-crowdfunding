@@ -18,7 +18,7 @@ import FAQ from "../components/FAQ";
 
 const HomePage = () => (
   <div>
-    <Layout pageTitle="Apiton | Home Page">
+    <Layout pageTitle="Unidos mx - Crowdfunding">
       <Header
         btnClass="main-nav__btn"
         extraClassName="site-header-one__fixed-top"
@@ -26,14 +26,13 @@ const HomePage = () => (
       <MobileMenu />
       <Banner />
       <Services />
-      <CTAOne />
+      <BlogHome />
       <FunFact />
       <CTATwo />
-      <Pricing />
       <Team />
       <VideoOne />
       <FAQ />
-      <BlogHome />
+      <CTAOne />
       <Contact />
       <CTAThree />
       <Footer />
