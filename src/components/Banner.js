@@ -1,18 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 
 import BannerShape from "../assets/images/shapes/banner-shape-1-1.png";
 import BannerBG from "../assets/images/resources/banner-image-1-1.jpg";
 import BannerMoc from "../assets/images/unidosmx-home-banner.png";
 
 const Banner = () => {
-  const [open, setOpen] = useState({
-    isOpen: false
-  });
-  const openModal = () => {
-    setOpen({
-      isOpen: true
-    });
-  };
+  
 
   return (
     <section className="banner-one" id="home">
@@ -46,7 +39,7 @@ const Banner = () => {
                 Nulla facilisi. Proin felis neque, suscipit egestas erat a{" "}
                 <br /> tincidunt finibus magna consectetur lacus.
               </p>
-              <a href="#none" className="thm-btn banner-one__btn">
+              <a href="#none" className="banner-one__btn thm-btn ">
                 <span>Comienza ahora</span>
               </a>
             </div>

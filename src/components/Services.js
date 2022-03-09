@@ -1,5 +1,9 @@
 import React from "react";
 import BlockTitle from "./BlockTitle";
+import imgVoluntariado from "../assets/images/causas/Voluntariado-unidos-mx.png";
+import imgplayeras from "../assets/images/causas/playeras-unidos-mx.png";
+import imgDonante from "../assets/images/causas/donante-unidos-mx.png";
+import imgEmpresas from "../assets/images/causas/empresas-cool-unidos-mx.png";
 
 const Services = () => {
   return (
@@ -8,7 +12,7 @@ const Services = () => {
         <BlockTitle
           textAlign="center"
           paraText="Donación online"
-          titleText={`Mira y apoya nuestras\ndiferentes causas sociales`}
+          titleText={`¿Cómo quieres unirte a transformar\nnuestra comunidad?`}
         />
         <div className="row">
           <div className="col-lg-3 col-md-6">
@@ -16,9 +20,14 @@ const Services = () => {
               <div className="service-one__inner">
                 <div className="service-one__circle"></div>
                 <div className="service-one__icon">
-                  <i className="apton-icon-computer-graphic"></i>
+                  <img
+                  src={imgVoluntariado}
+                  className="proyectoIcon"
+                  data-wow-duration="1500ms"
+                  alt="awesome post"
+                />
                 </div>
-                <h3>Educación</h3>
+                <h3>Voluntariado</h3>
                 <p>Lorem ipsum is are many variations of pass majy.</p>
               </div>
             </div>
@@ -28,9 +37,14 @@ const Services = () => {
               <div className="service-one__inner">
                 <div className="service-one__circle"></div>
                 <div className="service-one__icon">
-                  <i className="apton-icon-development"></i>
+                <img
+                src={imgEmpresas}
+                className="proyectoIcon"
+                data-wow-duration="1500ms"
+                alt="awesome post"
+              />
                 </div>
-                <h3>Tecnología</h3>
+                <h3>Empresa Cool</h3>
                 <p>Lorem ipsum is are many variations of pass majy.</p>
               </div>
             </div>
@@ -40,9 +54,14 @@ const Services = () => {
               <div className="service-one__inner">
                 <div className="service-one__circle"></div>
                 <div className="service-one__icon">
-                  <i className="apton-icon-development1"></i>
+                <img
+                src={imgplayeras}
+                className="proyectoIcon"
+                data-wow-duration="1500ms"
+                alt="awesome post"
+              />
                 </div>
-                <h3>Grupos vulnerables</h3>
+                <h3>Playeras Soy Futuro</h3>
                 <p>Lorem ipsum is are many variations of pass majy.</p>
               </div>
             </div>
@@ -52,9 +71,14 @@ const Services = () => {
               <div className="service-one__inner">
                 <div className="service-one__circle"></div>
                 <div className="service-one__icon">
-                  <i className="apton-icon-responsive"></i>
+                <img
+                src={imgDonante}
+                className="proyectoIcon"
+                data-wow-duration="1500ms"
+                alt="awesome post"
+              />
                 </div>
-                <h3>Medio ambiente</h3>
+                <h3>Donante</h3>
                 <p>Lorem ipsum is are many variations of pass majy.</p>
               </div>
             </div>

@@ -7,7 +7,9 @@ const BlogPost = (props) => {
     <Col lg={4} md={6} sm={12}>
       <div className="blog-one__single">
         <div className="blog-one__image">
-          <img src={props.postImage} alt="awesome post" />
+          <Link to={props.postLink}>
+            <img src={props.postImage} className="causes-img-home" alt="awesome post" />
+          </Link>
         </div>
         <div className="blog-one__content">
           <div className="blog-one__circle"></div>

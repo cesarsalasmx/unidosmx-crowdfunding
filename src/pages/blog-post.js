@@ -14,7 +14,7 @@ const BlogPostPage = () => (
   <Layout pageTitle="UnidosMX - Crowdfunding">
     <Header btnClass="main-nav__btn-two" />
     <MobileMenu />
-    <PageHeader pageHeading="Blog Post Page" />
+    <PageHeader pageHeading="Soy futuro" />
 
     <section className="blog-details">
       <Container>

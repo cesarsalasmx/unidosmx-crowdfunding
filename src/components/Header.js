@@ -40,8 +40,8 @@ const HeaderHome = (props) => {
           <NavLinks />
         </div>
         <div className="main-nav__right">
-          <a href="#none" className={`thm-btn ${props.btnClass}`}>
-            <span>Registro / Iniciar sesión</span>
+          <a href="/iniciar-sesion" className={`thm-btn ${props.btnClass}`}>
+            <span>Iniciar sesión</span>
           </a>
         </div>
       </div>

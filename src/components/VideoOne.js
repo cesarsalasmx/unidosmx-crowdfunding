@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ModalVideo from "react-modal-video";
 import BlockTitle from "./BlockTitle";
-import videoBG from "../assets/images/resources/video-bg-1-1.jpg";
+import videoBG from "../assets/images/resources/proyecto-unidos-video-background.jpeg";
 
 const VideoOne = () => {
   const [open, setOpen] = useState({
@@ -32,7 +32,7 @@ const VideoOne = () => {
         <ModalVideo
           channel="youtube"
           isOpen={open.isOpen}
-          videoId="Kl5B6MBAntI"
+          videoId="35-e7UNeDqgmh6"
           onClose={() => setOpen({ isOpen: false })}
         />
         <a

@@ -3,40 +3,40 @@ import { Container, Row } from "react-bootstrap";
 import BlockTitle from "./BlockTitle";
 import BlogPost from "./BlogPost";
 
-import BlogImage1 from "../assets/images/blog/blog-1-1.jpg";
-import BlogImage2 from "../assets/images/blog/blog-1-2.jpg";
-import BlogImage3 from "../assets/images/blog/blog-1-3.jpg";
+import causeImage1 from "../assets/images/causas/SOY-FUTURO.png";
+import causeImage2 from "../assets/images/causas/Sonrie.png";
+import causeImage3 from "../assets/images/causas/Reforesta.png";
 
 const BlogHome = () => {
   return (
-    <section className="blog-one" id="blog">
+    <section className="blog-one" id="actividades">
       <Container>
         <BlockTitle
           textAlign="center"
-          paraText="Actividadesx"
+          paraText="Actividades"
           titleText={`Causas sociales de \nla comunidad`}
         />
         <Row>
           <BlogPost
-            postImage={BlogImage1}
-            postTitle="Recuperación de espacios"
+            postImage={causeImage1}
+            postTitle="Soy futuro"
             postDate="20 Feb"
             postCommentCount="2 comments"
-            postLink="/blog-post"
+            postLink="/causas/soy-futuro"
           />
           <BlogPost
-            postImage={BlogImage2}
-            postTitle="Unidos por el parque"
+            postImage={causeImage2}
+            postTitle="Sonríe"
             postDate="20 Feb"
             postCommentCount="2 comments"
-            postLink="/blog-post"
+            postLink="/causas/sonrie"
           />
           <BlogPost
-            postImage={BlogImage3}
-            postTitle="Limpiando nuestro paraíso"
+            postImage={causeImage3}
+            postTitle="Reforesta Cancún"
             postDate="20 Feb"
             postCommentCount="2 comments"
-            postLink="/blog-post"
+            postLink="/causas/reforesta-cancun"
           />
         </Row>
       </Container>

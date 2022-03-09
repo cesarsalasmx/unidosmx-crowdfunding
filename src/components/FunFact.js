@@ -18,34 +18,20 @@ const FunFact = () => {
       <div className="container">
         <div className="row">
           <div>
-            <center><h2 className="funfactsTitle">Datos de impacto</h2></center>
+            <center><h2 className="funfactsTitle">Numeralia</h2></center>
           </div>
           <div className="col-lg-3 col-md-6">
             <div className="funfact-one__single">
-              <h3 className="counter">
+              <h3 className="counter">+
                 <VisibilitySensor
                   onChange={onVisibilityChange}
                   offset={{ top: 10 }}
                   delayedCall
                 >
-                  <CountUp end={counter.startCounter ? 74 : 0} />
+                  <CountUp end={counter.startCounter ? 5000 : 0} />
                 </VisibilitySensor>
               </h3>
-              <p>Proyectos financiados</p>
-            </div>
-          </div>
-          <div className="col-lg-3 col-md-6">
-            <div className="funfact-one__single">
-              <h3 className="counter">$
-                <VisibilitySensor
-                  onChange={onVisibilityChange}
-                  offset={{ top: 10 }}
-                  delayedCall
-                >
-                  <CountUp end={counter.startCounter ? 6400 : 0} />
-                </VisibilitySensor>
-              </h3>
-              <p>Recaudados</p>
+              <p>Voluntarios</p>
             </div>
           </div>
           <div className="col-lg-3 col-md-6">
@@ -56,24 +42,38 @@ const FunFact = () => {
                   offset={{ top: 10 }}
                   delayedCall
                 >
-                  <CountUp end={counter.startCounter ? 900 : 0} />
+                  <CountUp end={counter.startCounter ? 20 : 0} />
                 </VisibilitySensor>
               </h3>
-              <p>Contribuciones</p>
+              <p>Empresas aliadas</p>
             </div>
           </div>
           <div className="col-lg-3 col-md-6">
             <div className="funfact-one__single">
-              <h3 className="counter">
+              <h3 className="counter">+
                 <VisibilitySensor
                   onChange={onVisibilityChange}
                   offset={{ top: 10 }}
                   delayedCall
                 >
-                  <CountUp end={counter.startCounter ? 266 : 0} />
+                  <CountUp end={counter.startCounter ? 30 : 0} />
                 </VisibilitySensor>
               </h3>
-              <p>Personas integran nuestra comunidad</p>
+              <p>Colaboraciones con orgs.</p>
+            </div>
+          </div>
+          <div className="col-lg-3 col-md-6">
+            <div className="funfact-one__single">
+              <h3 className="counter">+
+                <VisibilitySensor
+                  onChange={onVisibilityChange}
+                  offset={{ top: 10 }}
+                  delayedCall
+                >
+                  <CountUp end={counter.startCounter ? 20 : 0} />
+                </VisibilitySensor>
+              </h3>
+              <p>Colaboraciones</p>
             </div>
           </div>
         </div>
