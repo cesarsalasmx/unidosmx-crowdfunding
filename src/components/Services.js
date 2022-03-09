@@ -28,7 +28,7 @@ const Services = () => {
                 />
                 </div>
                 <h3>Voluntariado</h3>
-                <p>Lorem ipsum is are many variations of pass majy.</p>
+                <p>Asiste y ayuda en las actividades para transformar escuelas</p>
               </div>
             </div>
           </div>
@@ -45,7 +45,7 @@ const Services = () => {
               />
                 </div>
                 <h3>Empresa Cool</h3>
-                <p>Lorem ipsum is are many variations of pass majy.</p>
+                <p>Se parte de la comunidad de empresas que se ocupan por un mejor futuro</p>
               </div>
             </div>
           </div>
@@ -62,7 +62,7 @@ const Services = () => {
               />
                 </div>
                 <h3>Playeras Soy Futuro</h3>
-                <p>Lorem ipsum is are many variations of pass majy.</p>
+                <p> Viste la causa SOY FUTURO y crea conciencia en toda la comunidad</p>
               </div>
             </div>
           </div>
@@ -79,7 +79,7 @@ const Services = () => {
               />
                 </div>
                 <h3>Donante</h3>
-                <p>Lorem ipsum is are many variations of pass majy.</p>
+                <p>Dona mensualmente y ayúdanos a transformar una escuela mes a mes</p>
               </div>
             </div>
           </div>

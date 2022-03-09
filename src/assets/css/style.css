@@ -2716,9 +2716,9 @@ button {
   font-size: 16px;
   font-weight: 500;
   line-height: 29px;
-  width: 58%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 80%;
+  margin-left: 25px;
+  margin-right: 20px;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
