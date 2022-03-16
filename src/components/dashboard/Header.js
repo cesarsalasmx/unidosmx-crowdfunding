@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "gatsby";
+import { Link } from "gatsby";
 import LogoImage from "../../assets/images/unidos-mx-logo-pruple.png";
 const Header = () => {
     return (
