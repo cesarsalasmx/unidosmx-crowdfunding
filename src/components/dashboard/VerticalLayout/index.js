@@ -92,9 +92,9 @@ Layout.propTypes = {
   topbarTheme: PropTypes.any
 }
 
-const mapStatetoProps = state => {
-  return {
-    ...state.Layout,
-  }
-}
+// const mapStatetoProps = state => {
+//   return {
+//     ...state.Layout,
+//   }
+// }
 export default Layout;

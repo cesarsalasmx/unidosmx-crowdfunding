@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import React,{useState} from "react";
+import React from "react";
 import {
   Container,
   Row,
@@ -41,10 +41,10 @@ import Salesdonut from "../AllCharts/apex/salesdonut";
 import "../../assets/sass/dashboard/chartist.scss";
 
 const Dashboard = props => {
-  const [menu, setMenu] = useState(false)
-  const toggle = () => {
-    setMenu(!menu)
-  }
+  // const [menu, setMenu] = useState(false)
+  // const toggle = () => {
+  //   setMenu(!menu)
+  // }
   return (
     <React.Fragment>
        <Layout>
