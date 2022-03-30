@@ -309,8 +309,8 @@ RightSidebar.propTypes = {
   topbarTheme: PropTypes.any
 }
 
-const mapStateToProps = state => {
-  return { ...state.Layout }
-}
+// const mapStateToProps = state => {
+//   return { ...state.Layout }
+// }
 
 export default RightSidebar;
