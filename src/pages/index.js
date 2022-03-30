@@ -12,9 +12,8 @@ import CTAOne from "../components/CTAOne";
 import FunFact from "../components/FunFact";
 import CTATwo from "../components/CTATwo";
 import Team from "../components/Team";
-import Pricing from "../components/Pricing";
 import VideoOne from "../components/VideoOne";
-import FAQ from "../components/FAQ";
+import Faq from "../components/FAQ";
 
 const HomePage = () => (
   <div>
@@ -31,7 +30,7 @@ const HomePage = () => (
       <CTATwo />
       <Team />
       <VideoOne />
-      <FAQ />
+      <Faq />
       <CTAOne />
       <Contact />
       <CTAThree />

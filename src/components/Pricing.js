@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col } from "reactstrap";
 import BlockTitle from "./BlockTitle";
 
 const Pricing = (props) => {

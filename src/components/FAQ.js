@@ -1,5 +1,5 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Container } from "reactstrap";
 import BlockTitle from "./BlockTitle";
 import AccordionItem from "./AccordionItem";
 import faqBG from "../assets/images/shapes/faq-bg-1-1.png";

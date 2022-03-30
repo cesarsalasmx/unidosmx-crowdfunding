@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import { Col } from "react-bootstrap";
+import { Col } from "reactstrap";
 
 const BlogPost = (props) => {
   return (

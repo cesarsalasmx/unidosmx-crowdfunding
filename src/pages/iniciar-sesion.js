@@ -1,7 +1,7 @@
 import React from "react";
 import Login from "../components/login";
-import "../assets/css/iofrm-style.css";
-import "../assets/css/iofrm-theme4.css"
+import "../assets/css/main-login.css";
+
 
 const login = () => (
   <Login />

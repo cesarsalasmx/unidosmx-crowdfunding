@@ -1,7 +1,6 @@
 import React from "react";
 import Register from "../components/Register";
-import "../assets/css/iofrm-style.css";
-import "../assets/css/iofrm-theme4.css"
+import "../assets/css/main-login.css";
 
 const registro = () => (
   <Register />

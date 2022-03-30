@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "gatsby";
+
 const General = () => {
     return(
         <div className="main">
-
-
+       
         <div className="main-content dashboard">
             <div className="row">
                 <div className="col-12">
@@ -50,7 +50,6 @@ const General = () => {
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>

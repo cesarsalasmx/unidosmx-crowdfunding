@@ -9,6 +9,8 @@ module.exports = {
       }
     },
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-sass`,
+    
   ]
 };

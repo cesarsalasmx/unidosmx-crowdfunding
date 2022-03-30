@@ -1,7 +1,7 @@
 import React from "react";
-import { Container } from "react-bootstrap";
-import { Row } from "react-bootstrap";
-import { Col } from "react-bootstrap";
+import { Container } from "reactstrap";
+import { Row } from "reactstrap";
+import { Col } from "reactstrap";
 import Layout from "../components/Layout";
 import Header from "../components/Header";
 import MobileMenu from "../components/MobileMenu";

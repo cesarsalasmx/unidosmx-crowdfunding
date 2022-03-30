@@ -1,6 +1,5 @@
 import React from "react";
-import Form from "react-bootstrap/Form";
-import Button from "react-bootstrap/Button";
+import {Form, Button, FormGroup, Label, Input } from "reactstrap";
 import logoSm from "../assets/images/unidos-mx-logo-pruple.png";
 import loginImg from "../assets/images/resources/login-img.png";
 import { Link } from "gatsby";
@@ -43,22 +42,22 @@ const Login = () => {
                 <Link to="/registro">Registro</Link>
               </div>
               <Form onSubmit={handleSubmit}>
-                <Form.Group size="lg" controlId="email">
-                  <Form.Label>Correo Electrónico</Form.Label>
-                  <Form.Control
+                <FormGroup>
+                  <Label>Correo Electrónico</Label>
+                  <Input
                     type="email"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                   />
-                </Form.Group>
-                <Form.Group size="lg" controlId="password">
-                  <Form.Label>Contraseña</Form.Label>
-                  <Form.Control
+                </FormGroup>
+                <FormGroup>
+                  <Label>Contraseña</Label>
+                  <Input
                     type="password"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                   />
-                </Form.Group>
+                </FormGroup>
                 <Button
                   block
                   size="lg"
